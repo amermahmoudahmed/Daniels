@@ -1,0 +1,412 @@
+h1,
+h2,
+h4,
+p,
+h3,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: transparent !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header h5 {
+  font-size: 4.375rem;
+  font-weight: 50rem;
+}
+
+.header h1 {
+  font-size: 3.75rem;
+  font-weight: 12.5rem;
+  &::after {
+    content: "";
+    animation: header-animation 9s infinite;
+  }
+}
+.icon:hover {
+  cursor: pointer;
+}
+
+@keyframes header-animation {
+  0% {
+    content: "|";
+  }
+  3% {
+    content: "D|";
+  }
+  5% {
+    content: "De|";
+  }
+  7% {
+    content: "Dev|";
+  }
+  10% {
+    content: "Deve|";
+  }
+  13% {
+    content: "Devel|";
+  }
+  15% {
+    content: "Develo|";
+  }
+  17% {
+    content: "Develop|";
+  }
+  20% {
+    content: "Develope|";
+  }
+  24% {
+    content: "Developer|";
+  }
+  25% {
+    content: "Des|";
+  }
+  27% {
+    content: "Desi|";
+  }
+  30% {
+    content: "Desig|";
+  }
+  32% {
+    content: "design|";
+  }
+  35% {
+    content: "designe|";
+  }
+  37% {
+    content: "designer|";
+  }
+  40% {
+    content: "la|";
+  }
+  42% {
+    content: "lar|";
+  }
+  45% {
+    content: "larr|";
+  }
+  47% {
+    content: "larry|";
+  }
+  50% {
+    content: "D|";
+  }
+  52% {
+    content: "DA|";
+  }
+  55% {
+    content: "DAN|";
+  }
+  57% {
+    content: "DANY|";
+  }
+  60% {
+    content: "DANYA|";
+  }
+  62% {
+    content: "DANYAL|";
+  }
+  65% {
+    content: "DANYALI|";
+  }
+  67% {
+    content: "Designer|";
+  }
+  70% {
+    content: "Designe|";
+  }
+  72% {
+    content: "Design|";
+  }
+  75% {
+    content: "Desig|";
+  }
+  77% {
+    content: "Desi|";
+  }
+  80% {
+    content: "Des|";
+  }
+  82% {
+    content: "De|";
+  }
+  85% {
+    content: "Dev|";
+  }
+  87% {
+    content: "Deve|";
+  }
+  90% {
+    content: "Devel|";
+  }
+  92% {
+    content: "Develo|";
+  }
+  95% {
+    content: "Develop|";
+  }
+  97% {
+    content: "Develope|";
+  }
+  100% {
+    content: "Developer|";
+  }
+}
+
+/* end header */
+
+.line::after {
+  content: "";
+  display: block;
+  width: 3.125rem;
+  height: 0.3125rem;
+  background-color: #fff;
+}
+
+.icon {
+  li {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.021);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.404);
+  }
+}
+
+.Basic example {
+  background-color: black;
+}
+
+.progress-bar {
+  background-color: black;
+}
+
+.skill h6 {
+  font-size: 0.875rem;
+  color: white;
+  position: relative;
+  z-index: 2;
+  top: 1.4375rem;
+  left: 0.3125rem;
+  transform: translateY(25%);
+}
+
+.btn-dark:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-light:hover {
+  background-color: black;
+  color: white;
+}
+.about p {
+  line-height: 1.6;
+  margin: 0;
+  font-size: 0.9375rem;
+  color: #748182;
+}
+.about h5 {
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+  margin-bottom: 1.25rem;
+}
+.skill .progress {
+  height: 1.25rem;
+}
+
+/* end about */
+
+.services .color:hover {
+  background: #1c1c1c;
+  color: #eee;
+}
+
+.Services,
+.team,
+.Testimonials {
+  background-color: rgb(247, 247, 247);
+}
+
+.color {
+  color: black;
+  z-index: 1;
+}
+.font {
+  font-weight: 900 !important;
+}
+
+.icon2 {
+  width: 6.25rem;
+  height: 6.25rem;
+  margin: 0rem 7.8125rem;
+  border-radius: 50%;
+  transition: 2s;
+  background-color: rgba(128, 128, 128, 0.308);
+}
+
+.card:hover .icon2 {
+  background-color: black;
+  color: white;
+}
+
+.card {
+  border-radius: 1.25rem;
+  box-shadow: 0 0.8125rem 0.5rem -0.625rem rgba(0, 0, 0, 0.1);
+}
+.team .card-body {
+  background-color: rgb(91, 91, 91);
+}
+/* end Services */
+.portfolio {
+  .nav-pills .nav-link.active {
+    color: black;
+    background-color: white;
+  }
+  .nav-link {
+    color: RGB(87, 87, 87);
+  }
+  .inner {
+    overflow: hidden;
+    &::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0);
+      position: absolute;
+      inset: 0;
+      transition: 1s;
+    }
+    &:hover {
+      img {
+        scale: 1.4;
+      }
+      .layer {
+        transform: translateY(0);
+      }
+      &::after {
+        background-color: white;
+        border: 8px solid rgb(215, 213, 214);
+      }
+    }
+  }
+  img {
+    transition: 200ms;
+  }
+  .layer {
+    transition: 200ms;
+    z-index: 5;
+    color: #fff;
+    transform: translateY(100%);
+  }
+}
+
+.rounded-circle {
+  width: 6.25rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 0.625rem;
+  height: 0.625rem;
+  margin-right: 0.1875rem;
+  margin-left: 0.25rem;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: grey;
+  transform: translateY(100%);
+}
+
+.card-hover {
+  overflow: hidden;
+}
+
+.card-hover .image-container {
+  position: relative;
+}
+
+.image-container {
+  border-radius: 0.375rem;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
+.card-hover .overlay {
+  position: absolute;
+  top: 0.25rem;
+  left: 0.25rem;
+  width: 98%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.74);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 1.4s;
+  border-radius: 0.375rem;
+}
+
+.card-hover .image-container:hover .overlay {
+  opacity: 1;
+  transform: rotateY(360deg);
+}
+
+.card-hover .social-icons i {
+  font-size: 1.5rem;
+  color: #000;
+  margin: 0 0.625rem;
+  cursor: pointer;
+}
+.card-hover {
+  border-radius: 0 !important;
+  border: none;
+}
+
+.form-control {
+  background-color: rgb(247, 247, 247);
+}
+
+.contact .btn {
+  padding: 0.375rem 1.6875rem 0rem 1.0625rem;
+}
+
+.contact .btn:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 1px solid #000 !important;
+}
+.icon3 {
+  width: 5.25rem;
+  height: 5.25rem;
+  margin: 0rem 7.8125rem;
+  border-radius: 50%;
+  transition: 2s;
+  background-color: rgba(128, 128, 128, 0.308);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border-radius: 0;
+}
